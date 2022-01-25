@@ -17,7 +17,7 @@ on:
         type: string
     outputs:
       version:
-        value: "{{ jobs.prepare.outputs.version }}"
+        value: "${{ jobs.prepare.outputs.version }}"
       version_full:
         value: "{{ jobs.prepare.outputs.version_full }}"
       image_name:
