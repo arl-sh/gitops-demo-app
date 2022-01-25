@@ -16,18 +16,8 @@ on:
         required: false
         type: string
     outputs:
-      version:
-        value: ${{ jobs.prepare.outputs.version }}
-      version_full:
-        value: ${{ jobs.prepare.outputs.version_full }}
-      image_name:
-        value: ${{ jobs.prepare.outputs.image_name }}
-      image_url:
-        value: ${{ jobs.prepare.outputs.image_url }}
-      image_full:
-        value: ${{ jobs.prepare.outputs.image_full }}
-      built:
-        value: true
+      test:
+        value: "123"
 
   workflow_dispatch:
     inputs:
