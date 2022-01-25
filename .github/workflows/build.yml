@@ -17,7 +17,7 @@ on:
         type: string
     outputs:
       test:
-        value: "123"
+        value: true
 
   workflow_dispatch:
     inputs:
