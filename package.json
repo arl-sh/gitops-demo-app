@@ -1,6 +1,6 @@
 {
   "name": "demo-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Demo app for GitOps.",
   "main": "index.js",
   "type": "module",
@@ -14,6 +14,6 @@
   "author": "Aurélien Garnier <github@arl.sh>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.1"
   }
 }
