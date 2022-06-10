@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/au2001/gitops-demo-app.git"
   },
-  "author": "Aurélien GARNIER <aurelien.garnier@atos.net>",
+  "author": "Aurélien Garnier <github@arl.sh>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
